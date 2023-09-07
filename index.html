@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Sistema Escolar</title>
+</head>
+<body>
+<h1>Sistema Escolar</h1>
+
+    <form action="redirect.php" method="get">
+        <fieldset class="selecao">
+            <div>
+                <input type="radio" name="opcao" id="aluno" value="aluno" checked>
+                <label for="aluno">Aluno</label>
+            </div>
+            <div>
+                <input type="radio" name="opcao" id="curso" value="curso">
+                <label for="curso">Curso</label>
+            </div>
+            <div>
+                <input type="radio" name="opcao" id="disciplina" value="disciplina">
+                <label for="disciplina">Disciplina</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <button type="submit" value="pesquisar" name="funcao">Pesquisar</button>
+            <button type="submit" value="cadastrar" name="funcao">Cadastrar Novo</button>
+        </fieldset>
+    </form>
+</body>
+</html>

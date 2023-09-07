@@ -1,0 +1,25 @@
+form
+{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+input
+{
+    margin: 10px;
+    height: 15px;
+}
+h3
+{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.links{
+    margin: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
